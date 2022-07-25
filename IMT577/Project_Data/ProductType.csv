@@ -1,0 +1,11 @@
+﻿ProductTypeID,ProductCategoryID,ProductType,CreatedDate
+1,1,Cosmetics,1/1/2013
+2,1,Jewelry,1/1/2013
+3,2,Baby 0-2,1/1/2013
+4,2,Kids 2-6,1/1/2013
+5,2,Kids 7-14,1/1/2013
+6,3,Women's Casual,1/1/2013
+7,3,Women's Eveningwear,1/1/2013
+8,3,Women's Formal,1/1/2013
+9,4,Men's Casual,1/1/2013
+10,4,Men's Formal,1/1/2013
