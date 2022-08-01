@@ -433,7 +433,7 @@ Insert into Dim_Product
     ,WholeSalePrice As ProductWholesalePrice
     ,Cost As ProductCost
     ,(Select Price - Cost) As ProductRetailProfit
-    ,(Select (SALESAMOUNT / SALESQUANTITY) FROM STAGE_SALESDETAIL WHERE SALESDETAILID <> SALESHEADERID) As ProductWholesaleUnitProfit
+    ,(Select WholeSalePrice - Cost) As ProductWholesaleUnitProfit
     ,(Select (Price - Cost) / Price) As ProductProfitMarginUnitPercent
 
     From Stage_Product
